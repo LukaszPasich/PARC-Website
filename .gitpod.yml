@@ -1,0 +1,13 @@
+tasks:
+  - name: Serve static website
+    command: |
+      python3 -m http.server 3000
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - dbaeumer.vscode-eslint

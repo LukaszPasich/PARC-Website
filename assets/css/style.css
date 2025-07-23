@@ -77,32 +77,81 @@ h6 {
 
 /* CUSTOM CSS */
 
+h1 {
+
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
 .container {
   width: 100%;
   max-width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
 }
+
+
+/* Button */
+
+button {
+  background-color: #bbb;
+  height: 60px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* Header */
 
 .header {
   background-color: #ddd;
   height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-bar {
   width: 1200px;
   margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
+/* Jumbotron */
+
 .jumbotron {
   background-color: #eee;
   height: 640px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.jumbotron-content {
+  width: 1200px;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron-para {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+
+/* Section - Our Expertise */
 
 .section-our-expertise {
   background-color: #ddd;

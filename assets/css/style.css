@@ -75,3 +75,41 @@ h6 {
 }
 
 
+/* CUSTOM CSS */
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #ddd;
+  height: 80px;
+}
+
+.jumbotron {
+  background-color: #eee;
+  height: 640px;
+}
+
+.section-our-expertise {
+  background-color: #ddd;
+  height: 1200px;
+}
+
+.section-our-misson {
+  background-color: #eee;
+  height: 600px;
+}
+
+.section-testimonials {
+  background-color: #ddd;
+  height: 600px;
+}
+
+.footer {
+  background-color: #ccc;
+  height: 600px;
+}

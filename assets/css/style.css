@@ -111,7 +111,7 @@ button {
   padding-right: 36px;
 }
 
-/* Header */
+/* HEADER */
 
 .header {
   background-color: #ddd;
@@ -131,11 +131,11 @@ button {
 }
 
 
-/* Jumbotron */
+/* JUMBOTRON */
 
 .jumbotron {
   background-color: #eee;
-  height: 640px;
+  height: 680px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -157,7 +157,7 @@ button {
 }
 
 
-/* Section - Our Expertise */
+/* SECTION - OUR EXPERTISE */
 
 .section-our-expertise {
   background-color: #ddd;
@@ -174,10 +174,14 @@ button {
 }
 
 
-.section-our-misson {
+/* SECTION - OUR MISSION */
+
+.section-our-mission,
+.section-our-vision {
   background-color: #eee;
-  height: 600px;
 }
+
+
 
 .section-testimonials {
   background-color: #ddd;

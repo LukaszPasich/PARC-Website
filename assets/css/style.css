@@ -118,6 +118,12 @@ p {
 }
 
 
+/* COLOURS */
+
+
+
+/* CONTAINER */
+
 .container {
   width: 100%;
   max-width: 100%;
@@ -132,7 +138,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.96);
+  background-color: rgba(255, 255, 255, 0.95);
   display: flex;
   align-items: center;
 }
@@ -159,11 +165,49 @@ p {
 /* JUMBOTRON */
 
 .jumbotron {
-  background-color: #eee;
   height: 680px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.jumbotron-image {
+  position: relative;
+  height: 680px;
+  overflow: visible;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  transition: transform 2s ease;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  opacity: .25;
+  object-fit: cover; /* or contain */
+  z-index: -1;
+  pointer-events: none; /* makes it transparent to hover */
+  transition: transform 2s ease;
+  overflow: visible;
+}
+
+.container:hover .background-img {
+  transform: scale(1.1);
+}
+
+.container:hover .overlay-img {
+  transform: scale(1.25);
 }
 
 

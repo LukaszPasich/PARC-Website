@@ -137,11 +137,6 @@ p {
   align-items: center;
 }
 
-.navbar {
-  justify-content: space-between;
-  align-items: center;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -171,20 +166,6 @@ p {
   align-items: center;
 }
 
-.jumbotron-content {
-  width: 1200px;
-  margin: auto;
-  padding-left: 24px;
-  padding-right: 24px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.jumbotron-para {
-  width: 50%;
-  display: inline-block;
-  text-align: left;
-}
 
 /* Button */
 

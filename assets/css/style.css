@@ -74,13 +74,13 @@ h6 {
   font-weight: inherit;
 }
 
+/* --------------------------------------------------------------------------------------------------------- */
 
-/* CUSTOM CSS */
+/* TEXT */
 
 h1 {
   font-size: 5rem;
   font-weight: 900;
-  text-align: center;
 }
 
 h2 {
@@ -107,6 +107,9 @@ h6 {
   font-size: 1.25rem;
   font-weight: 700;
 }
+
+
+
 
 
 .container {
@@ -213,7 +216,23 @@ button {
   padding-right: 60px;
 }
 
+
+/* FOOTER */
+
 .footer {
-  background-color: #ccc;
-  height: 600px;
+  background-color: #aaa;
+  height: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.section-footer {
+  background-color: #999;
+  width: 90%;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -134,23 +134,46 @@ p {
 
 /* BUTTON */
 
+.fa-circle-arrow-right {
+  font-size: 1.375em;
+  opacity: 0%;
+  transition: opacity 0.4s ease;
+}
+
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  min-width: 300px;
+  max-width: 480px;
+}
+
+.button-link {
   background-color: #ED2D24;
   color: #fff;
   height: 60px;
-  min-width: 300px;
-  max-width: 480px;
-  padding-left: 36px;
-  padding-right: 36px;
-  font-size: 1.25rem;
-  font-weight: 700;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 1.375rem;
+  font-weight: 600;
   border-top-left-radius: 84px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 84px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  transition: gap 0.4s ease;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #D62920;
+  gap: 40%;
+}
+
+.button-link:hover .fa-circle-arrow-right {
+  opacity: 100%;
 }
 
 

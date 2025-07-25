@@ -132,6 +132,28 @@ p {
 }
 
 
+/* BUTTON */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ED2D24;
+  color: #fff;
+  height: 60px;
+  min-width: 300px;
+  max-width: 480px;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-top-left-radius: 84px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 84px;
+}
+
+
 /* NAVBAR */
 
 .header {
@@ -209,16 +231,6 @@ p {
 
 .container:hover .overlay-img {
   transform: scale(1.25);
-}
-
-
-/* Button */
-
-button {
-  background-color: #bbb;
-  height: 60px;
-  padding-left: 36px;
-  padding-right: 36px;
 }
 
 

@@ -146,7 +146,7 @@ p {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .nav-links a {
@@ -159,6 +159,7 @@ p {
 
 .nav-links a:hover {
   color: #ED2D24;
+  background-color: #fafafa;
 }
 
 

@@ -278,8 +278,25 @@ li {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 }
 
+.img-parc-logomark {
+  transition: transform 0.4s ease;
+}
+
+.button-card {
+  opacity: 0;
+}
+
 .our-expertise-card:hover {
   outline: 4px solid #ED2D24;
+}
+
+.our-expertise-card:hover .img-parc-logomark {
+  transform: rotate(90deg);
+}
+
+.our-expertise-card:hover .button-card {
+  transition: opacity 0.8s ease-in-out;
+  opacity: 1;
 }
 
 /* SECTION - OUR MISSION */

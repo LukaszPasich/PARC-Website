@@ -118,6 +118,9 @@ li {
   font-family: Inter;
 }
 
+.para-1-250 {
+  font-size: 1.25rem;
+}
 
 /* COLOURS */
 
@@ -299,11 +302,19 @@ li {
   opacity: 1;
 }
 
+
+/* SECTION - OUR VISION */
+
+.our-section-image {
+  position: relative;
+  overflow: visible;
+}
+
+
 /* SECTION - OUR MISSION */
 
-.section-our-mission,
-.section-our-vision {
-  background-color: #eee;
+.section-our-mission {
+  background-color: #ccc;
 }
 
 

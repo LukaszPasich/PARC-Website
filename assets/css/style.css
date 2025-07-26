@@ -213,7 +213,7 @@ li {
 
 /* NAVBAR */
 
-.header {
+.navbar {
   position: sticky;
   top: 0;
   z-index: 999;
@@ -241,16 +241,16 @@ li {
 }
 
 
-/* JUMBOTRON */
+/* HEADER */
 
-.jumbotron {
+.header {
   height: 680px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.jumbotron-image {
+.header-image {
   position: relative;
   height: 680px;
   overflow: visible;

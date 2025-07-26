@@ -130,6 +130,10 @@ li {
   font-size: 1rem;
 }
 
+.text-0-875 {
+  font-size: 0.75rem;
+}
+
 /* COLOURS */
 
 .text-parc-red {
@@ -360,8 +364,6 @@ li {
 
 .section-footer {
   margin: auto;
-  padding-left: 24px;
-  padding-right: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -370,7 +372,6 @@ li {
 .footer-links {
   list-style: none;
   display: flex;
-  gap: 4rem;
 }
 
 .footer-links a {
@@ -380,5 +381,10 @@ li {
 
 .footer-links a:hover {
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.section-copyright {
+  border-top: 1px solid #666;
 }
 

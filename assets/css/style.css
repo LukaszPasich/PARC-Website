@@ -118,8 +118,16 @@ li {
   font-family: Inter;
 }
 
-.para-1-250 {
+.text-1-250 {
   font-size: 1.25rem;
+}
+
+.text-1-125 {
+  font-size: 1.125rem;
+}
+
+.text-1-000 {
+  font-size: 1rem;
 }
 
 /* COLOURS */
@@ -219,7 +227,6 @@ li {
 .nav-links a {
   color: #444;
   text-decoration: none;
-  transition: color 0.3s ease;
   font-weight: 700;
   font-size: 1.125rem;
 }
@@ -253,7 +260,7 @@ li {
   height: 100%;
   object-fit: cover;
   z-index: -2;
-  transition: transform 2s ease;
+  transition: transform 3s ease;
   overflow: hidden;
 }
 
@@ -267,7 +274,7 @@ li {
   object-fit: cover; /* or contain */
   z-index: -1;
   pointer-events: none; /* makes it transparent to hover */
-  transition: transform 2s ease;
+  transition: transform 3s ease;
   overflow: visible;
 }
 
@@ -351,11 +358,6 @@ li {
 
 /* FOOTER */
 
-.footer {
-  display: flex;
-  align-items: center;
-}
-
 .section-footer {
   margin: auto;
   padding-left: 24px;
@@ -364,3 +366,19 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+

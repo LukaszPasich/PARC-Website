@@ -238,6 +238,7 @@ li {
   object-fit: cover;
   z-index: -2;
   transition: transform 2s ease;
+  overflow: hidden;
 }
 
 .overlay-img {
@@ -255,7 +256,7 @@ li {
 }
 
 .container:hover .background-img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .container:hover .overlay-img {
@@ -303,18 +304,15 @@ li {
 }
 
 
-/* SECTION - OUR VISION */
+/* SECTION - OUR VISION & OUR MISSION */
 
 .our-section-image {
   position: relative;
   overflow: visible;
 }
 
-
-/* SECTION - OUR MISSION */
-
-.section-our-mission {
-  background-color: #ccc;
+.our-icon {
+  height: 84px;
 }
 
 

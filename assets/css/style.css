@@ -128,6 +128,22 @@ li {
   color: #ED2D24;
 }
 
+.text-parc-lgrey {
+  color: #aaa;
+}
+
+.text-parc-dgrey {
+  color: #444;
+}
+
+.bg-parc-dgrey {
+  background-color: #444;
+}
+
+.bg-parc-ddgrey {
+  background-color: #333;
+}
+
 
 /* CONTAINER */
 
@@ -319,7 +335,7 @@ li {
 /* SECTION - TESTIMONIALS */
 
 .section-testimonials {
-  background-color: #ddd;
+  background-color: #e5e5e5;
 }
 
 .testimonials-card {
@@ -336,15 +352,11 @@ li {
 /* FOOTER */
 
 .footer {
-  background-color: #aaa;
-  height: 240px;
   display: flex;
   align-items: center;
 }
 
 .section-footer {
-  background-color: #999;
-  width: 90%;
   margin: auto;
   padding-left: 24px;
   padding-right: 24px;

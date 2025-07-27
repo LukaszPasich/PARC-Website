@@ -131,7 +131,7 @@ li {
 }
 
 .text-0-875 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 /* COLOURS */
@@ -144,16 +144,16 @@ li {
   color: #aaa;
 }
 
+.text-parc-grey {
+  color: #888;
+}
+
 .text-parc-dgrey {
   color: #444;
 }
 
 .bg-parc-dgrey {
   background-color: #444;
-}
-
-.bg-parc-ddgrey {
-  background-color: #333;
 }
 
 
@@ -376,13 +376,19 @@ li {
 }
 
 .testimonials-card {
-  width: 840px;
-  height: 320px;
+  width: 720px;
+  height: 296;
   background-color: #fff;
-  padding-top: 36px;
-  padding-bottom: 36px;
-  padding-left: 36px;
-  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 48px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+}
+
+.testimonial-img {
+  border-radius: 12px;
 }
 
 

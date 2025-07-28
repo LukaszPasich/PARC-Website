@@ -24,3 +24,28 @@ window.onscroll = () => {
 scrollBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+
+// TESTIMONIALS - CAROUSEL
+const container = document.getElementById("carouselStrip");
+const dots = document.querySelectorAll(".dot");
+const slideWidth = 612; // Slide width + gap
+
+function scrollCarouselLeft() {
+  container.scrollBy({ left: -slideWidth, behavior: "smooth" });
+}
+
+function scrollCarouselRight() {
+  container.scrollBy({ left: slideWidth, behavior: "smooth" });
+}
+
+function goToSlide(index) {
+  container.scrollTo({ left: index * slideWidth, behavior: "smooth" });
+  setActiveDot(index);
+}
+
+function setActiveDot(index) {
+  dots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === index);
+  });
+}

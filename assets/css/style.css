@@ -337,6 +337,7 @@ li {
   padding-right: 96px;
   border-radius: 24px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.2s ease;
 }
 
 .img-parc-logomark {
@@ -348,8 +349,7 @@ li {
 }
 
 .our-expertise-card:hover {
-  outline: 4px solid #ED2D24;
-  border-radius: 24px;
+  box-shadow: 0 0 0 4pt #ED2D24;
 }
 
 .our-expertise-card:hover .img-parc-logomark {

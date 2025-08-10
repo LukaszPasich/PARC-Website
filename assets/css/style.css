@@ -349,6 +349,7 @@ li {
 
 .our-expertise-card:hover {
   outline: 4px solid #ED2D24;
+  border-radius: 24px;
 }
 
 .our-expertise-card:hover .img-parc-logomark {
@@ -377,6 +378,7 @@ li {
 
 .testimonial-img {
   border-radius: 12px;
+  width: 262px;
 }
 
 .carousel-strip-wrapper {
@@ -391,15 +393,14 @@ li {
 
 .slide {
   flex: 0 0 200px;
-  width: 720px;
-  height: 296px;
+  min-width: 720px;
+  height: 310px;
   scroll-snap-align: center;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
   font-size: 2rem;
-  min-width: 600px;
   border-radius: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 48px;
 }
@@ -415,7 +416,7 @@ li {
 }
 
 .dot.active {
-  background-color: #0d6efd;
+  background-color: #434343;
 }
 
 

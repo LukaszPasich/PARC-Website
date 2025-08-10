@@ -33,7 +33,7 @@ scrollBtn.onclick = () => {
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
 const dots = document.querySelectorAll(".dot");
-const slideWidth = 612; // Slide width + gap
+const slideWidth = 732; // Slide width + gap
 
 function scrollCarouselLeft() {
   container.scrollBy({ left: -slideWidth, behavior: "smooth" });

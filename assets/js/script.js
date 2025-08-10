@@ -32,13 +32,27 @@ const slides = Array.from(container.children);
 const dots = document.querySelectorAll(".dot");
 const slideWidth = 736; // Slide width + gap
 
-function scrollCarouselLeft() {
-  container.scrollBy({ left: -slideWidth, behavior: "smooth" });
-}
+// function scrollCarouselLeft() {
+//   container.scrollBy({ left: -slideWidth, behavior: "smooth" });
+// }
 
-function scrollCarouselRight() {
-  container.scrollBy({ left: slideWidth, behavior: "smooth" });
-}
+// function scrollCarouselRight() {
+//   container.scrollBy({ left: slideWidth, behavior: "smooth" });
+// }
+
+
+// Auto-scroll every 3 seconds
+  setInterval(() => {
+    // Scroll right by one slide
+    container.scrollBy({ left: slideWidth, behavior: 'smooth' });
+
+    // If near the end, loop back to start
+    if (container.scrollLeft + container.clientWidth >= container.scrollWidth - slideWidth) {
+      setTimeout(() => {
+        container.scrollTo({ left: 0, behavior: 'smooth' });
+      }, 1200); // short delay so the last scroll finishes first
+    }
+  }, 4800);
 
 function goToSlide(index) {
   container.scrollTo({ left: index * slideWidth, behavior: "smooth" });
@@ -71,6 +85,8 @@ function setActiveSlide() {
     slides.forEach((slide, i) => {
       slide.classList.toggle('active-slide', i === closestIndex);
     });
+    
+    setActiveDot(closestIndex);
   }
 
   container.addEventListener('scroll', () => {

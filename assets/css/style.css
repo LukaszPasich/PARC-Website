@@ -389,6 +389,7 @@ li {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   overflow-x: hidden;
+  padding-inline: calc(50% - 100px)
 }
 
 .slide {

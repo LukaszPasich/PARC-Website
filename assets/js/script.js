@@ -26,14 +26,11 @@ scrollBtn.onclick = () => {
 };
 
 
-// TESTIMONIALS - CONTENTS
-
-
-
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
+const slides = Array.from(container.children);
 const dots = document.querySelectorAll(".dot");
-const slideWidth = 732; // Slide width + gap
+const slideWidth = 736; // Slide width + gap
 
 function scrollCarouselLeft() {
   container.scrollBy({ left: -slideWidth, behavior: "smooth" });
@@ -53,3 +50,32 @@ function setActiveDot(index) {
     dot.classList.toggle("active", i === index);
   });
 }
+
+function setActiveSlide() {
+    const carouselRect = container.getBoundingClientRect();
+    let closestIndex = 0;
+    let closestDistance = Infinity;
+
+    slides.forEach((slide, index) => {
+      const slideRect = slide.getBoundingClientRect();
+      const slideCenter = slideRect.left + slideRect.width / 2;
+      const carouselCenter = carouselRect.left + carouselRect.width / 2;
+      const distance = Math.abs(slideCenter - carouselCenter);
+
+      if (distance < closestDistance) {
+        closestDistance = distance;
+        closestIndex = index;
+      }
+    });
+
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active-slide', i === closestIndex);
+    });
+  }
+
+  container.addEventListener('scroll', () => {
+    window.requestAnimationFrame(setActiveSlide);
+  });
+
+setActiveSlide();
+

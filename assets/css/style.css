@@ -156,6 +156,10 @@ li {
   background-color: #444;
 }
 
+.bg-parc-lgrey {
+  background-color: #e5e5e5;
+}
+
 
 /* CONTAINER */
 
@@ -370,10 +374,6 @@ li {
 
 
 /* SECTION - TESTIMONIALS */
-
-.section-testimonials {
-  background-color: #e5e5e5;
-}
 
 .testimonials-card {
   width: 720px;

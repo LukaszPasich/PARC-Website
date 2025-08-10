@@ -238,14 +238,51 @@
     </div>
   </div>
 
-  <!-- SECTION - TESTIMONIALS -->
-  <div class="container section-testimonials">
-    <div class="col py-4 mx-auto">
-      <div class="py-3">
-        <h2 class="py-3 text-center text-parc-dgrey">
-          testimonials
-        </h2>
+  <!-- SECTION - TESTIMONIALS (TRY OUT) -->
+    <div class="container bg-parc-lgrey">
+      <div class="col py-4 mx-auto">
+        <div class="py-3">
+          <h2 class="py-3 text-center text-parc-dgrey">
+            testimonials
+          </h2>
+        </div>
       </div>
+    </div>
+
+    <!-- Carousel Strip -->
+    <div class="carousel-strip-wrapper overflow-auto container bg-parc-lgrey">
+      <div class="carousel-strip d-flex gap-3" id="carouselStrip">
+
+        <div class="slide rounded bg-secondary text-white text-center">
+          1
+        </div>
+        <div class="slide rounded bg-secondary text-white text-center">2</div>
+        <div class="slide rounded bg-secondary text-white text-center">3</div>
+        <div class="slide rounded bg-secondary text-white text-center">4</div>
+        <div class="slide rounded bg-secondary text-white text-center">5</div>
+        <div class="slide rounded bg-secondary text-white text-center">6</div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="d-flex justify-content-center gap-3 py-3 bg-parc-lgrey">
+      <button class="btn btn-outline-primary" onclick="scrollCarouselLeft()">‹</button>
+      <button class="btn btn-outline-primary" onclick="scrollCarouselRight()">›</button>
+    </div>
+
+    <!-- Pagination Dots -->
+    <div class="d-flex justify-content-center gap-2 pt-3 pb-5 bg-parc-lgrey" id="paginationDots">
+      <span class="dot active" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+      <span class="dot" onclick="goToSlide(3)"></span>
+      <span class="dot" onclick="goToSlide(4)"></span>
+    </div>
+  </div>
+
+   <!-- SECTION - TESTIMONIALS -->
+  <div class="container bg-parc-lgrey">
+    <div class="col py-4 mx-auto">
 
       <div class="container py-4">
         <div class="container testimonials-card mx-auto d-flex gap-4">
@@ -267,44 +304,8 @@
         </div>
       </div>
 
-      <div class="py-4 container">
-        <div class="col-2 mx-auto" style="background-color: #bbb;">
-          aaa
-        </div>
-      </div>
     </div>
   </div>
-
-  <!-- SECTION - TESTIMONIALS (TRY OUT) -->
-  <!-- <div class="container py-4">
-    <!-- Carousel Strip -->
-    <div class="carousel-strip-wrapper overflow-auto">
-      <div class="carousel-strip d-flex gap-3" id="carouselStrip">
-        <div class="slide rounded bg-secondary text-white text-center">1</div>
-        <div class="slide rounded bg-secondary text-white text-center">2</div>
-        <div class="slide rounded bg-secondary text-white text-center">3</div>
-        <div class="slide rounded bg-secondary text-white text-center">4</div>
-        <div class="slide rounded bg-secondary text-white text-center">5</div>
-        <div class="slide rounded bg-secondary text-white text-center">6</div>
-      </div>
-    </div>
-
-    <!-- Navigation Buttons -->
-    <div class="d-flex justify-content-center gap-3 my-3">
-      <button class="btn btn-outline-primary" onclick="scrollCarouselLeft()">‹</button>
-      <button class="btn btn-outline-primary" onclick="scrollCarouselRight()">›</button>
-    </div>
-
-    <!-- Pagination Dots -->
-    <div class="d-flex justify-content-center gap-2" id="paginationDots">
-      <span class="dot active" onclick="goToSlide(0)"></span>
-      <span class="dot" onclick="goToSlide(1)"></span>
-      <span class="dot" onclick="goToSlide(2)"></span>
-      <span class="dot" onclick="goToSlide(3)"></span>
-      <span class="dot" onclick="goToSlide(4)"></span>
-    </div>
-  </div> -->
-
 
   <!-- FOOTER -->
   <footer class="container text-parc-lgrey bg-parc-dgrey pt-4 pb-1">

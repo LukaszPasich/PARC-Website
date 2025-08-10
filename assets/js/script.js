@@ -26,6 +26,10 @@ scrollBtn.onclick = () => {
 };
 
 
+// TESTIMONIALS - CONTENTS
+
+
+
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
 const dots = document.querySelectorAll(".dot");

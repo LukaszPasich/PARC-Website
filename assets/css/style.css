@@ -160,6 +160,10 @@ li {
   background-color: #e5e5e5;
 }
 
+.bg-nav {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
 
 /* CONTAINER */
 
@@ -244,10 +248,6 @@ li {
 /* NAVBAR */
 
 .navbar {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background-color: rgba(255, 255, 255, 0.95);
   display: flex;
   align-items: center;
 }

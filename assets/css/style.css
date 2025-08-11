@@ -396,6 +396,7 @@ li {
   flex: 0 0 200px;
   min-width: 720px;
   height: 318px;
+  display: flex;
   scroll-snap-align: center;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.01);
   transition: box-shadow 0.3s ease;

@@ -99,6 +99,7 @@ setActiveSlide();
 
 const testimonials = [
   {
+    // testimonial 1
     image: 'assets/images/testimonial-1.jpg',
     imageAlt: 'Image of Angie at PCHEI 2024 Conference',
     header: 'PCHEI Conference 2024',
@@ -106,6 +107,7 @@ const testimonials = [
     small: '- Conference attendee'
   },
   {
+    // testimonial 2
     image: 'assets/images/testimonial-1.jpg',
     imageAlt: 'Image of Angie at PCHEI 2024 Conference',
     header: 'PCHEI Conference 2024',
@@ -113,3 +115,20 @@ const testimonials = [
     small: '- Conference attendee'
   }
 ];
+
+function fillCards(dataArray) {
+  const cardElements = document.querySelectorAll('.testimonial');
+  
+  dataArray.forEach((data, index) => {
+    if (cardElements[index]) {
+      const card = cardElements[index];
+      card.querySelector('img').src = data.image;
+      card.querySelector('img').alt = data.imageAlt;
+      card.querySelector('.testimonial-header').textContent = data.header;
+      card.querySelector('.testimonial-body').textContent = data.body;
+      card.querySelector('.testimonial-small').textContent = data.small;
+    }
+  });
+}
+
+fillCards(testimonials);

@@ -30,7 +30,7 @@ scrollBtn.onclick = () => {
 const container = document.getElementById("carouselStrip");
 const slides = Array.from(container.children);
 const dots = document.querySelectorAll(".dot");
-const slideWidth = 736; // Slide width + gap
+const slideWidth = container.querySelector('.slide').offsetWidth + 16; // Slide width + gap
 
 // function scrollCarouselLeft() {
 //   container.scrollBy({ left: -slideWidth, behavior: "smooth" });
@@ -95,3 +95,21 @@ function setActiveSlide() {
 
 setActiveSlide();
 
+// TESTIMONIALS
+
+const testimonials = [
+  {
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  }
+];

@@ -378,7 +378,7 @@ li {
 
 .testimonial-img {
   border-radius: 12px;
-  width: 262px;
+  width: 270px;
 }
 
 .carousel-strip-wrapper {
@@ -395,7 +395,7 @@ li {
 .slide {
   flex: 0 0 200px;
   min-width: 720px;
-  height: 310px;
+  height: 318px;
   scroll-snap-align: center;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.01);
   transition: box-shadow 0.3s ease;

@@ -383,6 +383,8 @@ li {
 
 .carousel-strip-wrapper {
   scroll-snap-type: x mandatory;
+  position: relative;
+  overflow: hidden;
 }
 
 .carousel-strip {
@@ -424,6 +426,35 @@ li {
 
 .dot.active {
   background-color: #434343;
+}
+
+.carousel-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  pointer-events: none; /* allow clicks through */
+  z-index: 2;
+}
+
+.carousel-fade-left {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(229,229,229,1) 0%,
+    rgba(229,229,229,0.9) 60%,
+    rgba(229,229,229,0) 100%
+    );
+}
+
+.carousel-fade-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(229,229,229,1) 0%,
+    rgba(229,229,229,0.9) 60%,
+    rgba(229,229,229,0) 100%
+    );
 }
 
 

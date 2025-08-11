@@ -112,7 +112,7 @@ const testimonials = [
     imageAlt: 'Image of Angie at PCHEI 2024 Conference',
     header: 'PCHEI Conference 2024',
     body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
-    small: '- Conference attendee'
+    small: '- Conference attendaaa'
   },
   {
     // testimonial 3

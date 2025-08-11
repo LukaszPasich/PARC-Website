@@ -113,6 +113,94 @@ const testimonials = [
     header: 'PCHEI Conference 2024',
     body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
     small: '- Conference attendee'
+  },
+  {
+    // testimonial 3
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 4
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 5
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 6
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 7
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 8
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 9
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 10
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 11
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 12
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
+  },
+  {
+    // testimonial 13
+    image: 'assets/images/testimonial-1.jpg',
+    imageAlt: 'Image of Angie at PCHEI 2024 Conference',
+    header: 'PCHEI Conference 2024',
+    body: `I thoroughly enjoyed the workshop and felt challenged to think about this fascinating area in a compassionate space.`,
+    small: '- Conference attendee'
   }
 ];
 

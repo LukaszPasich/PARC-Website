@@ -137,7 +137,7 @@ li {
 /* COLOURS */
 
 .text-parc-red {
-  color: #ED2D24;
+  color: #D62920;
 }
 
 .text-parc-lgrey {
@@ -189,7 +189,7 @@ li {
 }
 
 .button-link {
-  background-color: #ED2D24;
+  background-color: #D62920;
   color: #fff;
   height: 60px;
   width: 100%;
@@ -210,7 +210,7 @@ li {
 }
 
 .button-link:hover {
-  background-color: #D62920;
+  background-color: #ED2D24;
   gap: 40%;
 }
 
@@ -267,7 +267,7 @@ li {
 }
 
 .nav-links a:hover {
-  color: #ED2D24;
+  color: #D62920;
   background-color: #fafafa;
 }
 
@@ -352,7 +352,7 @@ li {
 }
 
 .our-expertise-card:hover {
-  box-shadow: 0 0 0 4pt #ED2D24;
+  box-shadow: 0 0 0 4pt #D62920;
 }
 
 .our-expertise-card:hover .img-parc-logomark {

@@ -1,8 +1,3 @@
-// Custom JavaScript goes here
-$(document).ready(function () {
-  console.log("jQuery is working!");
-});
-
 // CURRENT YEAR IN COPYRIGHT SECTION
 document.getElementById("year").textContent = new Date().getFullYear();
 

@@ -156,6 +156,10 @@ li {
   background-color: #444;
 }
 
+.bg-parc-ddgrey {
+  background-color: #222;
+}
+
 .bg-parc-lgrey {
   background-color: #e5e5e5;
 }
@@ -267,7 +271,7 @@ li {
 }
 
 .nav-links a:hover {
-  color: #D62920;
+  color: #ED2D24;
   background-color: #fafafa;
 }
 
@@ -352,7 +356,7 @@ li {
 }
 
 .our-expertise-card:hover {
-  box-shadow: 0 0 0 4pt #D62920;
+  box-shadow: 0 0 0 4pt #ED2D24;
 }
 
 .our-expertise-card:hover .img-parc-logomark {
@@ -362,6 +366,10 @@ li {
 .our-expertise-card:hover .button-card {
   transition: opacity 0.4s ease-in-out;
   opacity: 1;
+}
+
+.our-expertise-list {
+  list-style-type: disc;
 }
 
 
@@ -479,7 +487,7 @@ li {
 
 .footer-links a:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .section-copyright {

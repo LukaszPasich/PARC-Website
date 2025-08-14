@@ -145,6 +145,10 @@ li {
   color: #444;
 }
 
+.text-parc-ddgrey {
+  color: #222;
+}
+
 .bg-parc-dgrey {
   background-color: #444;
 }
@@ -470,6 +474,10 @@ li {
   align-items: center;
 }
 
+.footer-logo {
+  display: inline-block;
+}
+
 .footer-links {
   list-style: none;
   display: flex;
@@ -508,6 +516,9 @@ li {
 /* Media queries */
 
 @media (max-width: 1200px) {
+
+  /* footer */
+
   .footer-links {
     display: block;
   }
@@ -520,5 +531,34 @@ li {
   .section-footer {
     padding-top: 4px;
     padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* footer */
+
+  .section-footer {
+    display: block;
+  }
+
+  .footer-logo {
+    display: block;
+    margin: auto;
+  }
+
+  .footer-links {
+    padding-top: 36px;
+  }
+
+  .footer-links li {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .fa-linkedin-in {
+    display: block;
+    margin: auto;
   }
 }

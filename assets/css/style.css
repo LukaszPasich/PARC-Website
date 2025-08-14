@@ -545,10 +545,12 @@ li {
   .footer-logo {
     display: block;
     margin: auto;
+    padding-top: 12px;
   }
 
   .footer-links {
     padding-top: 36px;
+    padding-left: 0px;
   }
 
   .footer-links li {
@@ -557,8 +559,9 @@ li {
     margin-bottom: 24px;
   }
 
-  .fa-linkedin-in {
-    display: block;
-    margin: auto;
+  .link-linkedin {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
   }
 }

@@ -257,7 +257,7 @@ li {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .nav-links a {
@@ -270,6 +270,14 @@ li {
 .nav-links a:hover {
   color: #ED2D24;
   background-color: #fafafa;
+}
+
+.navigation-desktop {
+  display: block;
+}
+
+.navigation-mobile {
+  display: none;
 }
 
 
@@ -565,5 +573,18 @@ li {
     display: flex;
     justify-content: center;
     padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* navbar */
+
+  .navigation-desktop {
+    display: none;
+  }
+
+  .navigation-mobile {
+    display: block;
   }
 }

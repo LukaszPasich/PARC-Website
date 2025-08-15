@@ -21,6 +21,14 @@ scrollBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
+// HAMBURGER MENU
+const hamburger = document.getElementById("hamburger");
+const menuOverlay = document.getElementById('menu-overlay');
+
+hamburger.addEventListener('click', () => {
+  menuOverlay.classList.toggle('active');
+});
+
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
 const slides = Array.from(container.children);

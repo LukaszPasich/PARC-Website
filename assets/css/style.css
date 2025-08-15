@@ -551,12 +551,14 @@ li {
   .footer-links {
     padding-top: 36px;
     padding-left: 0px;
+    padding-bottom: 12px;
+    text-align: center;
   }
 
   .footer-links li {
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   .link-linkedin {

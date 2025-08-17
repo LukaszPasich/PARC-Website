@@ -329,6 +329,10 @@ a {
   font-size: 1.5rem;
 }
 
+.hamburger,
+.close-button {
+  cursor: pointer;
+}
 
 /* HEADER */
 
@@ -674,15 +678,6 @@ a {
     padding-left: 48px;
     padding-right: 48px;
   }
-}
-
-@media (max-width: 576px) {
-
-  /* our expertise */
-  .our-expertise-card {
-    padding-left: 36px;
-    padding-right: 36px;
-  }
 
   .our-expertise-card:hover {
     box-shadow: initial;
@@ -703,5 +698,24 @@ a {
   .our-expertise-card:hover .button-card {
     transition: none;
     opacity: initial;
+  }
+
+  .button {
+    min-width: auto;
+    max-width: auto;
+  }
+
+  .button-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* our expertise */
+  .our-expertise-card {
+    padding-left: 36px;
+    padding-right: 36px;
   }
 }

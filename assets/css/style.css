@@ -710,10 +710,12 @@ a {
     opacity: initial;
   }
 
-  .button {
-    /* min-width: auto;
-    max-width: auto; */
-    width: auto;
+  .button,
+  .button-link,
+  .button-card {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    ;
   }
 
   .button-link {

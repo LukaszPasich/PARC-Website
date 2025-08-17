@@ -23,10 +23,15 @@ scrollBtn.onclick = () => {
 
 // HAMBURGER MENU
 const hamburger = document.getElementById("hamburger");
-const menuOverlay = document.getElementById('menu-overlay');
+const menuOverlay = document.getElementById("menu-overlay");
+const closeButton = document.getElementById("close-button");
 
-hamburger.addEventListener('click', () => {
-  menuOverlay.classList.toggle('active');
+hamburger.addEventListener("click", () => {
+  menuOverlay.classList.toggle("active");
+});
+
+closeButton.addEventListener("click", () => {
+  menuOverlay.classList.remove("active");
 });
 
 // TESTIMONIALS - CAROUSEL

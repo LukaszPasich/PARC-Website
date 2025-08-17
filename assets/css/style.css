@@ -649,4 +649,16 @@ a {
     display: none;
     overflow: hidden;
   }
+
+  .text-jumbotron {
+    font-size: 2.75rem;
+  }
+
+  .header {
+    height: 600px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
 }

@@ -595,9 +595,19 @@ a {
     padding-top: 4px;
     padding-bottom: 24px;
   }
+
+  /* testimonials */
+  .carousel-fade {
+    width: 160px;
+  }
 }
 
 @media (max-width: 992px) {
+
+  /* testimonials */
+  .carousel-fade {
+    width: 96px;
+  }
 
   /* footer */
 
@@ -709,6 +719,11 @@ a {
   .button-link {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  /* testimonials */
+  .carousel-fade {
+    width: 0px;
   }
 }
 

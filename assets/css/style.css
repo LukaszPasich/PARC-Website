@@ -315,7 +315,8 @@ a {
 .menu-overlay ul {
   list-style: none;
   padding: 0;
-  text-align: left;
+  text-align: center;
+  font-weight: 600;
 }
 
 .menu-overlay ul li {

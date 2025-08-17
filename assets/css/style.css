@@ -207,7 +207,7 @@ a {
   padding-right: 60px;
   font-family: Inter;
   font-size: 1.375rem;
-  font-weight: 600;
+  font-weight: 700;
   border-top-left-radius: 84px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -682,5 +682,26 @@ a {
   .our-expertise-card {
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  .our-expertise-card:hover {
+    box-shadow: initial;
+  }
+
+  .button-icon {
+    display: none;
+  }
+
+  .button-card {
+    opacity: 1;
+  }
+
+  .our-expertise-card:hover .img-parc-logomark {
+    transform: none;
+  }
+
+  .our-expertise-card:hover .button-card {
+    transition: none;
+    opacity: initial;
   }
 }

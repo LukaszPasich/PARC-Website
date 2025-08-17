@@ -342,7 +342,8 @@ a {
 .header-image {
   position: relative;
   height: 680px;
-  overflow: visible;
+  /* overflow: visible; */
+  overflow: hidden;
 }
 
 .background-img {
@@ -354,6 +355,7 @@ a {
   object-fit: cover;
   z-index: -2;
   transition: transform 3s ease;
+  /* overflow: visible; */
   overflow: hidden;
 }
 
@@ -370,7 +372,7 @@ a {
   pointer-events: none;
   /* makes it transparent to hover */
   transition: transform 3s ease;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .container:hover .background-img {
@@ -431,7 +433,7 @@ a {
 
 .our-section-image {
   position: relative;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .our-icon {
@@ -654,11 +656,31 @@ a {
     font-size: 2.75rem;
   }
 
-  .header {
-    height: 600px;
+  .header,
+  .header-image {
+    height: 560px;
   }
 
   h1 {
     font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  /* our expertise */
+  .our-expertise-card {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* our expertise */
+  .our-expertise-card {
+    padding-left: 36px;
+    padding-right: 36px;
   }
 }

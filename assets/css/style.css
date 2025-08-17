@@ -643,4 +643,10 @@ a {
   .navigation-mobile {
     display: block;
   }
+
+  /* header */
+  .overlay-img {
+    display: none;
+    overflow: hidden;
+  }
 }

@@ -739,4 +739,9 @@ a {
   .our-icon {
     height: 76px;
   }
+
+  /* testimonials */
+  #paginationDots {
+    display: none !important;
+  }
 }

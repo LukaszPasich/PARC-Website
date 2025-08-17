@@ -358,7 +358,7 @@ a {
   height: 100%;
   object-fit: cover;
   z-index: -2;
-  transition: transform 3s ease;
+  transition: transform 3s ease-out;
   /* overflow: visible; */
   overflow: hidden;
 }
@@ -380,7 +380,7 @@ a {
 }
 
 .container:hover .background-img {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .container:hover .overlay-img {
@@ -701,8 +701,9 @@ a {
   }
 
   .button {
-    min-width: auto;
-    max-width: auto;
+    /* min-width: auto;
+    max-width: auto; */
+    width: auto;
   }
 
   .button-link {
@@ -717,5 +718,10 @@ a {
   .our-expertise-card {
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  /* our vision & our mission */
+  .our-icon {
+    height: 76px;
   }
 }

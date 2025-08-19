@@ -282,7 +282,7 @@ a {
   background-color: #fafafa;
 }
 
-.active {
+.nav-links a.selected {
   color: #ED2D24;
 }
 

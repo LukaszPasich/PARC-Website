@@ -282,6 +282,10 @@ a {
   background-color: #fafafa;
 }
 
+.active {
+  color: #ED2D24;
+}
+
 .navigation-desktop {
   display: block;
 }
@@ -525,6 +529,10 @@ a {
       rgba(229, 229, 229, 0) 100%);
 }
 
+/* SECTION - LINKEDIN AD */
+.section-linkedin-ad {
+  height: 360px;
+}
 
 /* FOOTER */
 

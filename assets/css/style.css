@@ -345,12 +345,17 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header-image {
   position: relative;
   height: 680px;
-  /* overflow: visible; */
+  overflow: hidden;
+}
+
+.header-contact {
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
   overflow: hidden;
 }
 

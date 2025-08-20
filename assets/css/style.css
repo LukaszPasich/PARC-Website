@@ -351,7 +351,7 @@ a {
 }
 
 .header-contact {
-  height: 520px;
+  height: 480px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -396,6 +396,30 @@ a {
   transform: scale(1.25);
 }
 
+.overlay-img-contact {
+  position: absolute;
+  top: 20px;
+  left: -10%;
+  width: 100%;
+  height: 100%;
+  opacity: .25;
+  object-fit: cover;
+  /* or contain */
+  z-index: -1;
+  pointer-events: none;
+  /* makes it transparent to hover */
+  transition: transform 3s ease;
+  overflow: hidden;
+}
+
+.container:hover .overlay-img-contact {
+  transform: scale(1.5);
+}
+
+.img-contact {
+  width: 440px;
+  height: 440px;
+}
 
 /* SECTION - OUR EXPERTISE */
 

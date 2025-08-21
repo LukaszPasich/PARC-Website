@@ -584,6 +584,17 @@ a {
   display: inline-block;
   width: 60px;
   height: 60px;
+  color: #fff;
+  background-color: #444;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 60px;
+  padding-top: 4px;
+  margin-left: 2px;
+}
+
+.profile-link:hover {
+  background-color: #111;
 }
 
 /* SECTION - CONTACT US */
@@ -640,7 +651,7 @@ a {
   border-top: 1px solid #666;
 }
 
-.fa-linkedin-in {
+.fa-linkedin-in-footer {
   padding: 10px 10px;
   font-size: 18px;
   background-color: #aaa;
@@ -650,7 +661,7 @@ a {
   text-align: center;
 }
 
-.fa-linkedin-in:hover {
+.fa-linkedin-in-footer:hover {
   background-color: #fff;
 }
 
@@ -720,7 +731,7 @@ a {
     padding: 12px;
   }
 
-  .fa-linkedin-in {
+  .fa-linkedin-in-footer {
     padding: 12px 10px 10px;
     font-size: 24px;
     width: 48px;

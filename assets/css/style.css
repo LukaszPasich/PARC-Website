@@ -568,6 +568,11 @@ a {
 
 
 /* SECTION - ABOUT US */
+.liliana-bio {
+  min-height: 600px;
+}
+
+
 .about-img {
   width: 360px;
   float: left;
@@ -600,6 +605,15 @@ a {
   background-color: #111;
 }
 
+.toggle-btn {
+  display: none;
+  width: 100%;
+  color: #D62920;
+  font-weight: 700;
+  text-align: end;
+  padding: 12px;
+}
+
 /* SECTION - CONTACT US */
 .contact-us-para {
   display: block;
@@ -613,19 +627,6 @@ a {
 
 .contact-link:hover {
   color: #ED2D24;
-}
-
-.toggle-btn {
-  display: inline-block;
-  width: 100%;
-  color: #D62920;
-  font-weight: 700;
-  text-align: end;
-  padding: 12px;
-}
-
-#moreText {
-  display: none;
 }
 
 /* SECTION - LINKEDIN AD */
@@ -890,6 +891,20 @@ a {
     padding-right: 20px;
   }
 
+  /* about us */
+  .profile-img {
+    width: 100%;
+  }
+
+  #moreText {
+    display: none;
+  }
+
+  .toggle-btn {
+    display: inline-block;
+  }
+
+  /* contact */
   .contact-us-para {
     display: none;
   }

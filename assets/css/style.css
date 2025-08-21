@@ -566,13 +566,12 @@ a {
 /* SECTION - ABOUT US */
 .about-img {
   width: 360px;
-  height: 360px;
   float: left;
 }
 
 .about-text {
   width: calc(100% - 360px) !important;
-  padding-left: 60px;
+  padding-left: 48px;
   clear: both;
 }
 
@@ -700,6 +699,17 @@ a {
     width: 96px;
   }
 
+  /* about us */
+  .about-img {
+    float: none;
+  }
+
+  .about-text {
+    width: 100% !important;
+    padding-left: 0px;
+    padding-top: 36px;
+  }
+  
   /* footer */
 
   .section-footer {
@@ -817,6 +827,11 @@ a {
   /* testimonials */
   .carousel-fade {
     width: 0px;
+  }
+
+  /* about us */
+  .about-img {
+    width: 100%;
   }
 }
 

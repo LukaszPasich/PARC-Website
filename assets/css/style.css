@@ -413,7 +413,7 @@ a {
 }
 
 .container:hover .overlay-img-contact {
-  transform: scale(1.5);
+  transform: scale(1.6);
 }
 
 .img-contact {
@@ -560,7 +560,13 @@ a {
 
 /* SECTION - CONTACT US */
 .contact-us-para {
+  display: block;
   width: 440px;
+}
+
+.contact-us-para-mobile {
+  display: none;
+  width: 300px;
 }
 
 .contact-link:hover {
@@ -807,6 +813,14 @@ a {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .contact-us-para {
+    display: none;
+  }
+
+  .contact-us-para-mobile {
+    display: block;
   }
 
 }

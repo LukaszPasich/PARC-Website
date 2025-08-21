@@ -564,9 +564,20 @@ a {
 
 
 /* SECTION - ABOUT US */
+.about-img {
+  width: 360px;
+  height: 360px;
+  float: left;
+}
+
+.about-text {
+  width: calc(100% - 360px) !important;
+  padding-left: 60px;
+  clear: both;
+}
+
 .profile-img {
-  width: 480px;
-  height: 480px;
+  border-radius: 120px 12px 120px 12px;
 }
 
 /* SECTION - CONTACT US */

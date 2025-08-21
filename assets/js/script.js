@@ -111,17 +111,13 @@ setActiveSlide();
 
 // ABOUT US - SEE MORE/SEE LESS BUTTON
 
-const toggleBtn = document.getElementById('toggleBtn');
-const moreText = document.getElementById('moreText');
-
-  toggleBtn.addEventListener('click', () => {
-    if (moreText.style.display === 'none') {
-      moreText.style.display = 'inline';
-      toggleBtn.textContent = 'See Less';
-    } else {
-      moreText.style.display = 'none';
-      toggleBtn.textContent = 'See More...';
-    }
+$(document).ready(function(){
+    $("#toggleBtn").click(function(){
+      $("#moreText").slideToggle(300); // 400ms animation
+      $(this).text(function(i, text){
+        return text === "See More..." ? "See Less" : "See More...";
+      });
+    });
   });
 
 

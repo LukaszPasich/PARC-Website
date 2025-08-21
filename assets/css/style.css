@@ -794,6 +794,10 @@ a {
     height: 76px;
   }
 
+  .header-contact {
+    height: 320px;
+  }
+
   /* testimonials */
   #paginationDots {
     display: none !important;

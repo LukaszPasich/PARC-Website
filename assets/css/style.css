@@ -580,6 +580,12 @@ a {
   border-radius: 120px 12px 120px 12px;
 }
 
+.profile-link {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
 /* SECTION - CONTACT US */
 .contact-us-para {
   display: block;

@@ -562,6 +562,13 @@ a {
       rgba(229, 229, 229, 0) 100%);
 }
 
+
+/* SECTION - ABOUT US */
+.profile-img {
+  width: 480px;
+  height: 480px;
+}
+
 /* SECTION - CONTACT US */
 .contact-us-para {
   display: block;

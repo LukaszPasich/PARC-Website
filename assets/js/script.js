@@ -1,6 +1,7 @@
 // CURRENT YEAR IN COPYRIGHT SECTION
 document.getElementById("year").textContent = new Date().getFullYear();
 
+
 // SCROLL TO TOP BUTTON
 const scrollBtn = document.getElementById("scrollTopBtn");
 
@@ -21,6 +22,7 @@ scrollBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
+
 // HAMBURGER MENU
 const hamburger = document.getElementById("hamburger");
 const menuOverlay = document.getElementById("menu-overlay");
@@ -33,6 +35,7 @@ hamburger.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
   menuOverlay.classList.remove("active");
 });
+
 
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
@@ -104,6 +107,23 @@ container.addEventListener("scroll", () => {
 });
 
 setActiveSlide();
+
+
+// ABOUT US - SEE MORE/SEE LESS BUTTON
+
+const toggleBtn = document.getElementById('toggleBtn');
+const moreText = document.getElementById('moreText');
+
+  toggleBtn.addEventListener('click', () => {
+    if (moreText.style.display === 'none') {
+      moreText.style.display = 'inline';
+      toggleBtn.textContent = 'See Less';
+    } else {
+      moreText.style.display = 'none';
+      toggleBtn.textContent = 'See More...';
+    }
+  });
+
 
 // TESTIMONIALS
 

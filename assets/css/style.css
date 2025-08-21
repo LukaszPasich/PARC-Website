@@ -611,6 +611,19 @@ a {
   color: #ED2D24;
 }
 
+.toggle-btn {
+  display: inline-block;
+  width: 100%;
+  color: #D62920;
+  font-weight: 700;
+  text-align: end;
+  padding: 12px;
+}
+
+#moreText {
+  display: none;
+}
+
 /* SECTION - LINKEDIN AD */
 .section-linkedin-ad {
   height: 360px;

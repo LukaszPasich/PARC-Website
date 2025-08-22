@@ -605,13 +605,21 @@ a {
   background-color: #111;
 }
 
-.toggle-btn {
+#toggleBtnAngie,
+#toggleBtnLiliana {
   display: none;
   width: 100%;
-  color: #D62920;
   font-weight: 700;
   text-align: end;
   padding: 12px;
+}
+
+#toggleBtnLiliana {
+  color: #D62920;
+}
+
+#toggleBtnAngie {
+  color: #FBD5D3;
 }
 
 /* SECTION - CONTACT US */
@@ -896,11 +904,12 @@ a {
     width: 100%;
   }
 
-  #moreText {
+  .text-more {
     display: none;
   }
 
-  .toggle-btn {
+  #toggleBtnAngie,
+  #toggleBtnLiliana {
     display: inline-block;
   }
 
@@ -912,5 +921,4 @@ a {
   .contact-us-para-mobile {
     display: block;
   }
-
 }

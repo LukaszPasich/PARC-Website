@@ -112,8 +112,17 @@ setActiveSlide();
 // ABOUT US - SEE MORE/SEE LESS BUTTON
 
 $(document).ready(function(){
-    $("#toggleBtn").click(function(){
-      $("#moreText").slideToggle(300); // 400ms animation
+    $("#toggleBtnLiliana").click(function(){
+      $("#moreTextLiliana").slideToggle(300); // 300ms animation
+      $(this).text(function(i, text){
+        return text === "See More..." ? "See Less" : "See More...";
+      });
+    });
+  });
+
+$(document).ready(function(){
+    $("#toggleBtnAngie").click(function(){
+      $("#moreTextAngie").slideToggle(300);
       $(this).text(function(i, text){
         return text === "See More..." ? "See Less" : "See More...";
       });

@@ -640,6 +640,8 @@ a {
 /* SECTION - LINKEDIN AD */
 .section-linkedin-ad {
   height: 360px;
+  display: flex;
+  align-items: flex-end;
 }
 
 /* FOOTER */

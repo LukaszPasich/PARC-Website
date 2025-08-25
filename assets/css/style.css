@@ -865,6 +865,16 @@ a {
 
 @media (max-width: 576px) {
 
+  /* header */
+  .text-jumbotron {
+    font-weight: 800;
+  }
+
+  .text-jumbotron-small {
+    font-weight: 600;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.5)
+  }
+
   /* our expertise */
   .our-expertise-card {
     padding-left: 36px;

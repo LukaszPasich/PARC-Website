@@ -566,6 +566,11 @@ a {
       rgba(229, 229, 229, 0) 100%);
 }
 
+.iahip-logo {
+  display: inline-block;
+  height: 32px;
+}
+
 
 /* SECTION - ABOUT US */
 .liliana-bio {

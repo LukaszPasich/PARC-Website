@@ -51,7 +51,7 @@ const slideWidth = container.querySelector(".slide").offsetWidth + 16; // Slide 
 //   container.scrollBy({ left: slideWidth, behavior: "smooth" });
 // }
 
-// Auto-scroll every 3 seconds
+// Auto-scroll every 6 seconds
 setInterval(() => {
   // Scroll right by one slide
   container.scrollBy({ left: slideWidth, behavior: "smooth" });
@@ -63,9 +63,9 @@ setInterval(() => {
   ) {
     setTimeout(() => {
       container.scrollTo({ left: 0, behavior: "smooth" });
-    }, 1200); // short delay so the last scroll finishes first
+    }, 1500); // short delay so the last scroll finishes first
   }
-}, 4800);
+}, 5400);
 
 function goToSlide(index) {
   container.scrollTo({ left: index * slideWidth, behavior: "smooth" });

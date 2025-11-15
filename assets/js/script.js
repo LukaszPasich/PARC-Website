@@ -1,7 +1,6 @@
 // CURRENT YEAR IN COPYRIGHT SECTION
 document.getElementById("year").textContent = new Date().getFullYear();
 
-
 // SCROLL TO TOP BUTTON
 const scrollBtn = document.getElementById("scrollTopBtn");
 
@@ -22,7 +21,6 @@ scrollBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-
 // HAMBURGER MENU
 const hamburger = document.getElementById("hamburger");
 const menuOverlay = document.getElementById("menu-overlay");
@@ -35,7 +33,6 @@ hamburger.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
   menuOverlay.classList.remove("active");
 });
-
 
 // TESTIMONIALS - CAROUSEL
 const container = document.getElementById("carouselStrip");
@@ -65,7 +62,7 @@ setInterval(() => {
       container.scrollTo({ left: 0, behavior: "smooth" });
     }, 1500); // short delay so the last scroll finishes first
   }
-}, 5400);
+}, 11400);
 
 function goToSlide(index) {
   container.scrollTo({ left: index * slideWidth, behavior: "smooth" });
@@ -108,29 +105,25 @@ container.addEventListener("scroll", () => {
 
 setActiveSlide();
 
-
 // ABOUT US - SEE MORE/SEE LESS BUTTON
 
-$(document).ready(function(){
-    $("#toggleBtnLiliana").click(function(){
-      $("#moreTextLiliana").slideToggle(300); // 300ms animation
-      $(this).text(function(i, text){
-        return text === "See More..." ? "See Less" : "See More...";
-      });
+$(document).ready(function () {
+  $("#toggleBtnLiliana").click(function () {
+    $("#moreTextLiliana").slideToggle(300); // 300ms animation
+    $(this).text(function (i, text) {
+      return text === "See More..." ? "See Less" : "See More...";
     });
   });
+});
 
-$(document).ready(function(){
-    $("#toggleBtnAngie").click(function(){
-      $("#moreTextAngie").slideToggle(300);
-      $(this).text(function(i, text){
-        return text === "See More..." ? "See Less" : "See More...";
-      });
+$(document).ready(function () {
+  $("#toggleBtnAngie").click(function () {
+    $("#moreTextAngie").slideToggle(300);
+    $(this).text(function (i, text) {
+      return text === "See More..." ? "See Less" : "See More...";
     });
   });
-
-
-
+});
 
 // TESTIMONIALS
 
